@@ -32,7 +32,7 @@ const ServiceAnimation = () => {
             data-aos="fade-right"
             data-aos-duration="1200"
           >
-            <img className="svg" src="img/svg/1.svg" alt="" />
+            <img className="svg" src="img/anxiety.svg" alt="" />
             <div className="service_title">
               <h3>ANXIETY & DEPRESSION</h3>
             </div>
@@ -138,7 +138,7 @@ const ServiceAnimation = () => {
             data-aos-duration="1200"
             data-aos-delay="100"
           >
-            <img className="svg" src="img/svg/2.svg" alt="" />
+            <img className="svg" src="img/friends.svg" alt="" />
             <div className="service_title">
               <h3>FAMILY &amp; FRIEND DYNAMICS</h3>
             </div>
@@ -245,7 +245,7 @@ const ServiceAnimation = () => {
             data-aos-duration="1200"
             data-aos-delay="200"
           >
-            <img className="svg" src="img/svg/3.svg" alt="" />
+            <img className="svg" src="img/heal.svg" alt="" />
             <div className="service_title">
               <h3>TRAUMA</h3>
             </div>
@@ -352,7 +352,7 @@ const ServiceAnimation = () => {
             data-aos-duration="1200"
             data-aos-delay="300"
           >
-            <img className="svg" src="img/svg/4.svg" alt="" />
+            <img className="svg" src="img/feelings.svg" alt="" />
             <div className="service_title">
               <h3>EMOTIONAL REGULATION</h3>
             </div>

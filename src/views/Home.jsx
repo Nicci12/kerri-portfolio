@@ -133,7 +133,7 @@ const Home = () => {
             >
               <div className="beny_tm_title_holder">
                 <span>Contact</span>
-                <h2>Let's discuss your project</h2>
+                <h2>You Can Reach Me On:</h2>
               </div>
               <div className="short_list">
                 <Address />
@@ -149,9 +149,9 @@ const Home = () => {
             >
               <div className="title">
                 <p>
-                  I'm always open to discussing product
+                  I'm always open to new clients
                   <br />
-                  <span>design work or partnerships.</span>
+                  <span></span>
                 </p>
               </div>
               <div className="fields">

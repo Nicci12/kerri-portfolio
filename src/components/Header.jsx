@@ -30,7 +30,7 @@ const Header = () => {
           <div className="topbar_inner">
             <div className="logo">
               <Link to="/">
-                <img src="img/logo/dark.png" alt="brand" />
+                <img src="img/kerrilogo.jpg" alt="brand" />
               </Link>
             </div> 
             <div className="menu">

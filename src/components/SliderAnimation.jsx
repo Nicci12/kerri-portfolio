@@ -12,7 +12,7 @@ const SliderAnimation = () => {
           className="image"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/kezza.jpg"
+              process.env.PUBLIC_URL + "img/kerri1.jpg"
             })`,
           }}
         ></div>
@@ -29,9 +29,9 @@ const SliderAnimation = () => {
 
       <div className="container">
         <div className="content">
-          <div className="content_inner">
+          <div className="content_inner"> <br />
             <h3 className="name" data-aos="fade-up" data-aos-duration="1200">
-              Hi! I'm Kerri Dimant
+              Hi! I'm Kerri Dimant. I am a
             </h3>
             <h1
               className="job"
@@ -40,11 +40,11 @@ const SliderAnimation = () => {
               data-aos-delay="50"
             >
               <TextLoop>
-                <p className="loop-text lead">Educational Psychologst</p>
-                <p className="loop-text lead">Teacher</p>
-                <p className="loop-text lead">Helper</p>
+                <p className="loop-text lead">Passionate</p>
+                <p className="loop-text lead">Dedicated</p>
+                <p className="loop-text lead">Happy</p>
               </TextLoop>
-              <br /> <span>Based In South Africa</span>
+              <br /><span>Educational Psychologist</span>
             </h1>
             <p
               className="text"

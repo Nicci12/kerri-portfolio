@@ -80,7 +80,7 @@ const Header = () => {
       {/* /TOPBAR */}
 
       <div className="mobile-menu-wrapper">
-        <Scrollspy
+        <ScrollSpy
           className="mobile_menu-icon"
           items={["home", "about", "service", "portfolio", "news", "contact"]}
           currentClassName="current"
@@ -122,7 +122,7 @@ const Header = () => {
               <span>Contact</span>
             </a>
           </li>
-        </Scrollspy>
+        </ScrollSpy>
       </div>
       {/* End mobile-menu */}
     </>

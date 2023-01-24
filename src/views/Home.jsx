@@ -52,11 +52,11 @@ const Home = () => {
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Services</span>
-            <h2>I provide wide range of digital services</h2>
-            <p>
+            <h2>I provide wide range of services that include but not limited to:</h2>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa.
-            </p>
+            </p> */}
           </div>
           {/* End beny_tm_title */}
           <Service />

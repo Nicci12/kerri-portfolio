@@ -3,42 +3,47 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 const educationContent = [
   {
-    passingYear: "2020-2021",
-    degree: "Ph.D in Horriblensess ",
-    instituteName: "Harvard University, Cambridge, MA",
+    passingYear: "2019-2020",
+    degree: "Masters in Educational Psychology ",
+    instituteName: "University of Johannesburg",
   },
   {
     passingYear: "2018-2019",
-    degree: "Computer Science",
-    instituteName: "Imperialize Technical Institute",
+    degree: "Honors in Educational Psychology ",
+    instituteName: "University of Johannesburg",
   },
   {
-    passingYear: "2016-2018",
-    degree: "Graphic Designer",
-    instituteName: "Web Graphy, Los Angeles, CA",
+    passingYear: "2017-2018",
+    degree: "Post Graduate in Chilhood Education-PGCE",
+    instituteName: "University of Johannesburg",
+  },
+  {
+    passingYear: "2013-2016",
+    degree: "BA Humanties",
+    instituteName: "University of Johannesburg",
   },
 ];
 
 const skillsContent = [
   {
-    name: "Web Design",
-    skillPercent: "85",
+    name: "Professional",
+    skillPercent: "100",
   },
   {
-    name: "Mobile App",
-    skillPercent: "55",
+    name: "Patient",
+    skillPercent: "100",
   },
   {
-    name: "Illustrator",
-    skillPercent: "65",
+    name: "Empathetic",
+    skillPercent: "100",
   },
   {
-    name: "Photoshop",
-    skillPercent: "72",
+    name: "Loving and Warm",
+    skillPercent: "100",
   },
   {
-    name: "Motion Graphy",
-    skillPercent: "80",
+    name: "Passsionate",
+    skillPercent: "100",
   },
 ];
 
@@ -50,50 +55,50 @@ const awardContent = [
   },
   {
     awardYear: "2019",
-    degree: "Best Writter",
-    instituteName: "Online Typodev Soluation Ltd.",
+    degree: "Lorum Ipsum",
+    instituteName: "Lorum Ipsum",
   },
   {
     awardYear: "2007",
-    degree: "Best Freelancer ",
-    instituteName: "Fiver & Upwork Level 2 & Top Rated",
+    degree: "Lorum Ipsum ",
+    instituteName: "Lorum Ipsum",
   },
 ];
 const experienceContent = [
   {
-    designation: "Sr. Software Tester",
-    jobType: "Full Time | Remote",
-    year: "2020 - Present",
-    compnayName: "Google Inc.",
+    designation: "Educational Psychologist-Internship",
+    jobType: "Full Time",
+    year: "Jan 2020-Dec 2020",
+    compnayName: "Nova Pioneer.",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "I worked at Nova Pioneer High School as an intern Educational Psychologist",
     animationDealy: "",
   },
   {
-    designation: "Sr. Graphic Designer",
-    jobType: "Part Time | Office",
-    year: "2018 - 2019",
-    compnayName: "Avada Theme.",
+    designation: "Educational Psychologist",
+    jobType: "Part Time",
+    year: "2021-present",
+    compnayName: "Family Tree Therapy Center",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "I work at Family Tree Therapy Center High School as an Educational Psychologist",
     animationDealy: "200",
   },
   {
-    designation: "Cr. Web Developer",
-    jobType: "Full Time | InHouse",
-    year: "2016 - 2017",
-    compnayName: "ib-themes ltd.",
+    designation: "Educational Psychologist",
+    jobType: "Part Time",
+    year: "2022-present",
+    compnayName: "Psych Central",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "I work at Psych Central Therapy Center High School as an Educational Psychologist",
     animationDealy: "",
   },
   {
-    designation: "Jr. Web Developer",
-    jobType: "Full Time | Remote",
-    year: "2014 - 2015",
-    compnayName: "Creative Gigs.",
+    designation: "Educational Psychologist",
+    jobType: "Part Time",
+    year: "2022-Present",
+    compnayName: "PANDA",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "I give talks on the Panda Platfrom about Childhood Education and Development",
     animationDealy: "200",
   },
 ];

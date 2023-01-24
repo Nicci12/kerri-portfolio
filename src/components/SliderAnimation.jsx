@@ -12,7 +12,7 @@ const SliderAnimation = () => {
           className="image"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/3.jpg"
+              process.env.PUBLIC_URL + "img/kezza.jpg"
             })`,
           }}
         ></div>
@@ -31,7 +31,7 @@ const SliderAnimation = () => {
         <div className="content">
           <div className="content_inner">
             <h3 className="name" data-aos="fade-up" data-aos-duration="1200">
-              Hi! I'm Jara
+              Hi! I'm Kerri Dimant
             </h3>
             <h1
               className="job"
@@ -40,11 +40,11 @@ const SliderAnimation = () => {
               data-aos-delay="50"
             >
               <TextLoop>
-                <p className="loop-text lead">Visual Artist</p>
-                <p className="loop-text lead"> Designer</p>
-                <p className="loop-text lead"> Developer</p>
+                <p className="loop-text lead">Educational Psychologst</p>
+                <p className="loop-text lead">Teacher</p>
+                <p className="loop-text lead">Helper</p>
               </TextLoop>
-              <br /> <span>Based In America.</span>
+              <br /> <span>Based In South Africa</span>
             </h1>
             <p
               className="text"
@@ -52,9 +52,9 @@ const SliderAnimation = () => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              I'm developer focused on crafting user‑friendly experiences, I am
+              {/* I'm developer focused on crafting user‑friendly experiences, I am
               passionate about building excellent software that improves the
-              lives of those around me.
+              lives of those around me. */}
             </p>
             <div
               className="mobile_social"

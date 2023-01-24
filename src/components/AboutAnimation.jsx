@@ -13,7 +13,7 @@ const AboutAnimation = () => {
             data-aos-duration="1200"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/about/3.jpg"
+                process.env.PUBLIC_URL + "img/kerri.webp"
               })`,
             }}
           ></div>
@@ -25,60 +25,53 @@ const AboutAnimation = () => {
           data-aos-delay="50"
         >
           <div className="short">
-            <h3>I'm Bany Jara</h3>
+            <h3>I am Kerri Dimant</h3>
             <h5>
-              A Lead <span className="theme-color"> Visual Artist </span>
-              based in <span className="theme-color">America</span>
+              An <span className="theme-color"> Educational Psychologist</span>{" "}
+             Based In {" " }<span className="theme-color">Johannesburg, South Africa</span>
             </h5>
             <p>
-              I design and develop services for customers specializing creating
-              stylish, modern websites, web services and online stores. My
-              passion is to design digital user experiences through meaningful
-              interactions. Check out my Portfolio
+            My name is Kerri Dimant and I am an Educational Psychologist. I chose to enter this industry as I have a long-lasting passion for working with children and adolescence. I have always wanted to work alongside children, their families, schools, and other supporting members, to come together as a team in order to best support your child. In saying that, do believe that it takes a village to raise the best possible version of your child and give them the opportunity to reach their fullest potential. Every child has the ability within them to become the person they want to be, and I hope to be able to support your child on this journey.
             </p>
           </div>
           <div className="extra">
-            <h3 className="title">Personal Info</h3>
+            <h3 className="title">Personal Information</h3>
             <div className="list">
               <ul>
                 <li>
                   <p>
-                    <span>Name :</span> Bany Jara
+                    <span>Name :</span> Kerri Dimant
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Address :</span> H-400 - Path2UK
+                    <span>Title: </span> Educational Psychologist
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Age :</span> 21 Years
+                    <span>Place of work</span>Family Tree and Psych Central
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Phone :</span> +12345667
+                    <span>Phone :</span> 0829277216
+                  </p>
+                </li>
+
+                <li>
+                  <p>
+                    <span>Email :</span> kerridimant@gmail.com
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Nationality :</span> USA
+                    <span>LinkedIn :</span> linkedin.com/in/kerri-dimant-aa35aa179
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Email :</span> yourmail@gmail.com
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Freelance :</span> Available
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Languages :</span> French, English
+                    <span>HPCSA Number :</span> PSIN 0157147
                   </p>
                 </li>
               </ul>

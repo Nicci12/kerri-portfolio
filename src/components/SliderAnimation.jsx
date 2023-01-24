@@ -1,7 +1,7 @@
 import React from "react";
 import Social from "../components/Social";
 import SocialTwo from "../components/SocialTwo";
-import TextLoop from "react-text-loop";
+import TypingAnimation from './TypingAnimation'
 
 const SliderAnimation = () => {
   return (
@@ -39,11 +39,11 @@ const SliderAnimation = () => {
               data-aos-duration="1200"
               data-aos-delay="50"
             >
-              <TextLoop>
-                <p className="loop-text lead">Passionate</p>
+              <TypingAnimation />
+                {/* <p className="loop-text lead">Passionate</p>
                 <p className="loop-text lead">Dedicated</p>
-                <p className="loop-text lead">Happy</p>
-              </TextLoop>
+                <p className="loop-text lead">Happy</p> */}
+  
               <br /><span>Educational Psychologist</span>
             </h1>
             <p

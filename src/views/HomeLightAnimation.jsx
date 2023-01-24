@@ -7,9 +7,9 @@ import Service from "../components/ServiceAnimation";
 // import Portfolio from "../../components/portfolio/PortfolioAnimation";
 // import Testimonial from "../../components/testimonial/Testimonial";
 // import Blog from "../../components/blog/BlogAnimation";
-import Contact from "../../components/Contact";
-import Footer from "../../components/footer/Footer";
-import Address from "../../components/Address";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import Address from "../components/Address";
 
 const HomeLightAnimation = () => {
   document.body.classList.add("light");

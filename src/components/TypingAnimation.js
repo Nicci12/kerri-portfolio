@@ -6,7 +6,7 @@ const TypingAnimation = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Passionate", "Developer", "Coder"], // Strings to display
+      strings: ["Passionate", "Dedicated", "Experienced"], // Strings to display
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 100,
@@ -22,7 +22,7 @@ const TypingAnimation = () => {
   }, []);
   return (
     <Fragment>
-      <span id="type-it" className="subtitle subtitle-typed" ref={el}></span>
+      <span id="type-it" ref={el}></span>
     </Fragment>
   );
 };

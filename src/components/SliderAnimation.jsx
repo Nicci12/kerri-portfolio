@@ -39,11 +39,7 @@ const SliderAnimation = () => {
               data-aos-duration="1200"
               data-aos-delay="50"
             >
-              <TypingAnimation />
-                {/* <p className="loop-text lead">Passionate</p>
-                <p className="loop-text lead">Dedicated</p>
-                <p className="loop-text lead">Happy</p> */}
-  
+              <TypingAnimation className="loop-text lead" />
               <br /><span>Educational Psychologist</span>
             </h1>
             <p

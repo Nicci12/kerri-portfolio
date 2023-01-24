@@ -22,7 +22,7 @@ const TypingAnimation = () => {
   }, []);
   return (
     <Fragment>
-      <span id="type-it" ref={el}></span>
+      <span id="type-it lead" ref={el}></span>
     </Fragment>
   );
 };

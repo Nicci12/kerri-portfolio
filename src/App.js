@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
-// import AllRoutes from "./router/AllRoutes";
+import AllRoutes from "./router/AllRoutes";
 import ScrollToTop from "./components/ScrollToTop";
 import AnimatedCursor from "react-animated-cursor";
-import Home from "./views/Home";
 import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 
 const App = () => {
@@ -22,7 +21,7 @@ const App = () => {
         outerScale={1.2}
       />
       <ScrollToTop />
-      <Home />
+      <AllRoutes />
     </div>
   );
 };

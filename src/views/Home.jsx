@@ -21,11 +21,6 @@ const Home = () => {
         data-aos-duration="1200"
         data-aos-delay="50"
       >
-        <button className="demo-button">
-          <Link to="/">
-            <span className="text">Demos</span>
-          </Link>
-        </button>
       </div>
       {/* demo show wrapper  */}
 

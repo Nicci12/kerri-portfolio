@@ -10,11 +10,11 @@ import {
   FiPhoneOutgoing,
 } from "react-icons/fi";
 
-const Header = () => {
+const HeaderCreative = () => {
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 120) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -26,17 +26,34 @@ const Header = () => {
   return (
     <>
       {/* TOPBAR  */}
-      <div className={navbar ? "beny_tm_topbar animate" : "beny_tm_topbar"}>
-        <div className="in">
+      <div
+        className={
+          navbar ? "beny_tm_topbar creative animate" : "beny_tm_topbar creative"
+        }
+      >
+        <div className="in container">
           <div className="topbar_inner">
             <div className="logo">
               <Link to="/">
-                <img src="img/logo/dark.png" alt="brand" />
+                <img
+                  className="light-img"
+                  src="img/logo/light.png"
+                  alt="brand"
+                />
+                <img className="dark-img" src="img/logo/dark.png" alt="brand" />
               </Link>
-            </div> 
+            </div>
             <div className="menu">
-              <ul
+              <ScrollSpy
                 className="anchor_nav"
+                items={[
+                  "home",
+                  "about",
+                  "service",
+                  "portfolio",
+                  "news",
+                  "contact",
+                ]}
                 currentClassName="current"
                 offset={-88}
               >
@@ -57,22 +74,44 @@ const Header = () => {
                     <span className="first">Service</span>
                     <span className="second">Service</span>
                   </a>
-                 </li>
+                </li>
+                <li>
+                  <a href="#portfolio">
+                    <span className="first">Portfolio</span>
+                    <span className="second">Portfolio</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#news">
+                    <span className="first">News</span>
+                    <span className="second">News</span>
+                  </a>
+                </li>
                 <li>
                   <a href="#contact">
                     <span className="first">Contact</span>
                     <span className="second">Contact</span>
                   </a>
                 </li>
-              </ul>
+                <li>
+                  <a href="https://themeforest.net/checkout/from_item/33910000?license=regular">
+                    <span className="wrapper">
+                      <span className="first">Buy Now</span>
+                      <span className="second">Buy Now</span>
+                    </span>
+                  </a>
+                </li>
+              </ScrollSpy>
             </div>
           </div>
         </div>
       </div>
       {/* /TOPBAR */}
+
       <div className="mobile-menu-wrapper">
-        <ul
+        <ScrollSpy
           className="mobile_menu-icon"
+          items={["home", "about", "service", "portfolio", "news", "contact"]}
           currentClassName="current"
           offset={-65}
         >
@@ -112,11 +151,11 @@ const Header = () => {
               <span>Contact</span>
             </a>
           </li>
-        </ul>
+        </ScrollSpy>
       </div>
       {/* End mobile-menu */}
     </>
   );
 };
 
-export default Header;
+export default HeaderCreative;

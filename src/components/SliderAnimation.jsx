@@ -1,6 +1,6 @@
 import React from "react";
-import Social from "../Social";
-import SocialTwo from "../SocialTwo";
+import Social from "../components/Social";
+import SocialTwo from "../components/SocialTwo";
 import TextLoop from "react-text-loop";
 
 const SliderAnimation = () => {

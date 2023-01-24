@@ -11,7 +11,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Address from "../components/Address";
 
-const HomeLightAnimation = () => {
+const Home = () => {
   document.body.classList.add("light");
   return (
     <div className="home-light">
@@ -179,4 +179,4 @@ const HomeLightAnimation = () => {
   );
 };
 
-export default HomeLightAnimation;
+export default Home;

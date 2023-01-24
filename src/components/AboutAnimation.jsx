@@ -1,5 +1,5 @@
 import React from "react";
-import Skills from "../skills/SkillsAnimation";
+import Skills from "../components/SkillsAnimation";
 
 const AboutAnimation = () => {
   return (

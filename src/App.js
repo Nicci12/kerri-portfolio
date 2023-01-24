@@ -13,12 +13,12 @@ const App = () => {
   return (
     <div className="beny_tm_all_wrap">
       <AnimatedCursor
-        innerSize={8}
-        outerSize={44}
-        color="245, 34, 37"
-        outerAlpha={0.3}
-        innerScale={0.7}
-        outerScale={1.2}
+        innerSize={0}
+        outerSize={22}
+        color="146, 197, 218"
+        outerAlpha={0.8}
+        innerScale={0.9}
+        outerScale={0}
       />
       <ScrollToTop />
       <AllRoutes />

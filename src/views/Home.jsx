@@ -1,12 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Slider from "../components/SliderAnimation";
 import About from "../components/AboutAnimation";
 import Service from "../components/ServiceAnimation";
-// import Portfolio from "../../components/portfolio/PortfolioAnimation";
-// import Testimonial from "../../components/testimonial/Testimonial";
-// import Blog from "../../components/blog/BlogAnimation";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Address from "../components/Address";

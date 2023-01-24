@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
-import Slider from "../../components/slider/SliderAnimation";
-import About from "../../components/about/AboutAnimation";
-import Service from "../../components/service/ServiceAnimation";
-import Portfolio from "../../components/portfolio/PortfolioAnimation";
-import Testimonial from "../../components/testimonial/Testimonial";
-import Blog from "../../components/blog/BlogAnimation";
+import Slider from "../components/SliderAnimation";
+import About from "../components/AboutAnimation";
+import Service from "../components/ServiceAnimation";
+// import Portfolio from "../../components/portfolio/PortfolioAnimation";
+// import Testimonial from "../../components/testimonial/Testimonial";
+// import Blog from "../../components/blog/BlogAnimation";
 import Contact from "../../components/Contact";
 import Footer from "../../components/footer/Footer";
 import Address from "../../components/Address";
@@ -70,7 +70,7 @@ const HomeLightAnimation = () => {
       {/* /SERVICES */}
 
       {/* PORTFOLIO */}
-      <div className="beny_tm_portfolio" id="portfolio">
+      {/* <div className="beny_tm_portfolio" id="portfolio">
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Portfolio</span>
@@ -79,14 +79,14 @@ const HomeLightAnimation = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa.
             </p>
-          </div>
+          </div> */}
           {/* End beny_tm_title */}
-          <Portfolio />
-        </div>
-      </div>
+          {/* <Portfolio /> */}
+        {/* </div>
+      </div> */}
       {/* /PORTFOLIO */}
 
-      {/* TESTIMONIALS */}
+      {/* TESTIMONIALS
       <div className="beny_tm_testimonials">
         <div className="container">
           <div className="beny_tm_title_holder">
@@ -98,7 +98,7 @@ const HomeLightAnimation = () => {
             </p>
           </div>
           {/* End beny_tm_title */}
-          <div
+          {/* <div
             className="testimonials_list"
             data-aos="fade-right"
             data-aos-duration="1200"
@@ -107,11 +107,11 @@ const HomeLightAnimation = () => {
             <Testimonial />
           </div>
         </div>
-      </div>
+      </div>  */}
       {/* /TESTIMONIALS */}
 
       {/* NEWS */}
-      <div className="beny_tm_news" id="news">
+      {/* <div className="beny_tm_news" id="news">
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Blogs</span>
@@ -120,11 +120,11 @@ const HomeLightAnimation = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa.
             </p>
-          </div>
+          </div> */}
           {/* End beny_tm_title */}
-          <Blog />
+          {/* <Blog />
         </div>
-      </div>
+      </div> */}
       {/* /NEWS */}
 
       {/*  CONTACT */}

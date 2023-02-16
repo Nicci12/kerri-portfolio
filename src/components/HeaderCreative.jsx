@@ -54,7 +54,7 @@ const HeaderCreative = () => {
                   "news",
                   "contact",
                 ]}
-                currentClassName="current"
+                currentclassName="current"
                 offset={-88}
               >
                 <li className="current">
@@ -112,7 +112,7 @@ const HeaderCreative = () => {
         <ScrollSpy
           className="mobile_menu-icon"
           items={["home", "about", "service", "portfolio", "news", "contact"]}
-          currentClassName="current"
+          currentclassname="current"
           offset={-65}
         >
           <li>

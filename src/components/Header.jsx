@@ -36,7 +36,7 @@ const Header = () => {
             <div className="menu">
               <ul
                 className="anchor_nav"
-                currentClassName="current"
+              ClassName="current"
                 offset={-88}
               >
                 <li className="current">
@@ -49,6 +49,12 @@ const Header = () => {
                   <a href="#about">
                     <span className="first">About</span>
                     <span className="second">About</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#consent">
+                    <span className="first">Forms</span>
+                    <span className="second">Forms</span>
                   </a>
                 </li>
                 <li>
@@ -72,7 +78,7 @@ const Header = () => {
       <div className="mobile-menu-wrapper">
         <ul
           className="mobile_menu-icon"
-          currentClassName="current"
+          currentclassname="current"
           offset={-65}
         >
           <li>
@@ -100,9 +106,9 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="#news">
+            <a href="#consent">
               <FiCast />
-              <span>News</span>
+              <span>Forms</span>
             </a>
           </li>
           <li>

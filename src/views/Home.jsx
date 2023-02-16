@@ -6,6 +6,7 @@ import Service from "../components/ServiceAnimation";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Address from "../components/Address";
+import ConsentForm from "../components/ConsentForm";
 
 const Home = () => {
   document.body.classList.add("light");
@@ -31,12 +32,7 @@ const Home = () => {
           <div className="beny_tm_title_holder">
             <span>About Me</span>
             <h2>About Me</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
-            </p>
           </div>
-          {/* End .beny_tm_title */}
           <About />
           {/* End Slider */}
         </div>
@@ -49,13 +45,26 @@ const Home = () => {
           <div className="beny_tm_title_holder">
             <span>Services</span>
             <h2>I provide wide range of services that include but not limited to:</h2>
-
           </div>
           {/* End beny_tm_title */}
           <Service />
         </div>
       </div>
       {/* /SERVICES */}
+      <div className="beny_tm_news" id="consent">
+        <div className="container">
+          <div className="beny_tm_title_holder">
+            <span>Forms</span>
+            <h2>Please Read </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
+              egestas. Id fermentum nullam ipsum massa.
+            </p>
+          </div>
+          {/* End beny_tm_title */}
+          <ConsentForm/>
+        </div>
+      </div>
       {/*  CONTACT */}
       <div className="beny_tm_contact" id="contact">
         <div className="container">
@@ -74,6 +83,7 @@ const Home = () => {
               </div>
             </div>
             {/* End .left */}
+            
 
             <div
               className="right"

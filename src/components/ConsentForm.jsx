@@ -8,6 +8,27 @@ const ConsentForm = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const response = await fetch('http://localhost:3001/send-email', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, message }),
+    });
+
+    if (response.ok) {
+      alert('Email sent successfully!');
+      setName('');
+      setEmail('');
+      setMessage('');
+    }
+  };
+
 
   function toggleModalOne() {
     setIsOpen(!isOpen);

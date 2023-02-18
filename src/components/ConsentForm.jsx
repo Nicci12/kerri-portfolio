@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import Social from "../components/Social"
+import Social from "../components/Social";
 
 Modal.setAppElement("#root");
 
@@ -8,27 +8,22 @@ const ConsentForm = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    const response = await fetch('http://localhost:3001/send-email', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, email, message }),
-    });
-
-    if (response.ok) {
-      alert('Email sent successfully!');
-      setName('');
-      setEmail('');
-      setMessage('');
-    }
+  const attributes = {
+    id: "JotFormIFrame-230465208451047",
+    title: "Form",
+    allowtransparency: true,
+    allowfullscreen: true,
+    allow: "geolocation; microphone; camera",
+    frameBorder: 0,
+    style: {
+      minWidth: "100%",
+      maxWidth: "100%",
+      height: "539px",
+      border: "none",
+    },
+    onLoad: () => window.parent.scrollTo(0, 0),
   };
-
 
   function toggleModalOne() {
     setIsOpen(!isOpen);
@@ -54,14 +49,13 @@ const ConsentForm = () => {
                     backgroundImage: `url(${
                       process.env.PUBLIC_URL + "img/news/1.jpg"
                     })`,
-                  }}
-                ></div>
+                  }}></div>
               </div>
               {/* End image */}
 
               <div className="details">
-              <h3 className="title" onClick={toggleModalOne}>
-               Informed Consent Form
+                <h3 className="title" onClick={toggleModalOne}>
+                  Informed Consent Form
                 </h3>
               </div>
               {/* End details */}
@@ -73,8 +67,7 @@ const ConsentForm = () => {
                 contentLabel="My dialog"
                 className="custom-modal"
                 overlayClassName="custom-overlay"
-                closeTimeoutMS={500}
-              >
+                closeTimeoutMS={500}>
                 <div className="beny_tm_modalbox_news">
                   <button className="close-modal" onClick={toggleModalOne}>
                     <img src="/img/svg/cancel.svg" alt="close icon" />
@@ -91,14 +84,13 @@ const ConsentForm = () => {
                             backgroundImage: `url(${
                               process.env.PUBLIC_URL + "img/news/1.jpg"
                             })`,
-                          }}
-                        ></div>
+                          }}></div>
                       </div>
                       {/* End image */}
 
                       <div className="details">
                         <h3 className="title" onClick={toggleModalOne}>
-                        Informed Consent Form
+                          Informed Consent Form
                         </h3>
                       </div>
                       {/* End details */}
@@ -121,14 +113,9 @@ const ConsentForm = () => {
                             remarkable things about these lockdown days that are
                             worth photographing now so we can remember them when
                             it is all over.
-                          </p>
-                          {" "}
-                          <div>
-                         <form>
-                            <input placeholder="Name" />
-                         </form>
-                         </div>
-                         {" "}
+                          </p>{" "}
+                          
+                        
                           <div className="quotebox">
                             <p>
                               Most photographers find it hard to see interesting
@@ -177,8 +164,7 @@ const ConsentForm = () => {
           <li
             data-aos="fade-right"
             data-aos-duration="1200"
-            data-aos-delay="150"
-          >
+            data-aos-delay="150">
             <div className="list_inner">
               <div className="image" onClick={toggleModalTwo}>
                 <img src="/img/placeholders/4-3.jpg" alt="thumb" />
@@ -188,14 +174,13 @@ const ConsentForm = () => {
                     backgroundImage: `url(${
                       process.env.PUBLIC_URL + "img/news/2.jpg"
                     })`,
-                  }}
-                ></div>
+                  }}></div>
               </div>
               {/* End image */}
 
               <div className="details">
                 <h3 className="title" onClick={toggleModalTwo}>
-                 Child Biographical Form
+                  Child Biographical Form
                 </h3>
               </div>
               {/* End details */}
@@ -206,8 +191,7 @@ const ConsentForm = () => {
                 contentLabel="My dialog"
                 className="custom-modal"
                 overlayClassName="custom-overlay"
-                closeTimeoutMS={500}
-              >
+                closeTimeoutMS={500}>
                 <div className="beny_tm_modalbox_news">
                   <button className="close-modal" onClick={toggleModalTwo}>
                     <img src="/img/svg/cancel.svg" alt="close icon" />
@@ -215,82 +199,18 @@ const ConsentForm = () => {
                   {/* End close modal */}
                   <div className="box_inner">
                     <div className="description_wrap scrollable">
-                      <div className="image">
-                        <img src="/img/placeholders/4-3.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: `url(${
-                              process.env.PUBLIC_URL + "img/news/2.jpg"
-                            })`,
-                          }}
-                        ></div>
-                      </div>
                       {/* End image */}
 
                       <div className="details">
-                        <h3 className="title">Client Detail Form</h3>
+                        <h3 className="title">Child Biographical Form</h3>
                       </div>
                       {/* End details */}
                       <div className="main_content">
                         <div className="descriptions">
-                          <input className="bigger">
-                            Just because we can't get out and about like we
-                            normally would, doesn’t mean we have to stop taking
-                            pictures. There’s still plenty you can do, provided
-                            you're prepared to use some imagination. Here are a
-                            few ideas to keep you shooting until normal life
-                            resumes.
-                          </input>
-                          <p>
-                            Most photographers love to shoot the unusual, and
-                            you don’t get much more unusual than These
-                            Unprecedented Times. Right now everything counts as
-                            out of the ordinary. There are a number of
-                            remarkable things about these lockdown days that are
-                            worth photographing now so we can remember them when
-                            it is all over.
-                          </p>
-                          <p>
-                            Streets empty that are usually busy are remarkable
-                            and can evoke the sense of historical pictures from
-                            before the invention of the motorcar. Other things
-                            that are different at the moment will be queues to
-                            get into stores and the lines marked out on the
-                            floor to show how far apart we should be.
-                          </p>
-                          <div className="quotebox">
-                            <p>
-                              Most photographers find it hard to see interesting
-                              pictures in places in which they are most
-                              familiar. A trip somewhere new seems always
-                              exactly what our photography needed, as shooting
-                              away from home consistently inspires us to new
-                              artistic heights.
-                            </p>
-                          </div>
-                          <p>
-                            Pretend everything is new and that you haven’t seen
-                            it before, and then you will be free to notice the
-                            leading lines, the places where one edge meets
-                            another in delightful geometric harmony, and how the
-                            ordinary things in the kitchen are transformed when
-                            the light is on or off.
-                          </p>
-                          <p>
-                            The trick here is to look slowly, and then look
-                            again. Take the time to look in detail and to look
-                            at the same thing from different angles, with
-                            different light, long lenses and wide lenses. Then
-                            move to the left a bit. You may never feel the need
-                            to leave the house again.
-                          </p>
+                          <iframe src="https://form.jotform.com/230482455574460" {...attributes}></iframe>
                         </div>
                         {/* End description */}
-                        <div className="news_share">
-                          <span>Share:</span>
-                          <Social />
-                        </div>
+            
                         {/* End news share */}
                       </div>
                     </div>
@@ -306,8 +226,7 @@ const ConsentForm = () => {
           <li
             data-aos="fade-right"
             data-aos-duration="1200"
-            data-aos-delay="300"
-          >
+            data-aos-delay="300">
             <div className="list_inner">
               <div className="image" onClick={toggleModalThree}>
                 <img src="/img/placeholders/4-3.jpg" alt="thumb" />
@@ -317,14 +236,13 @@ const ConsentForm = () => {
                     backgroundImage: `url(${
                       process.env.PUBLIC_URL + "img/news/3.jpg"
                     })`,
-                  }}
-                ></div>
+                  }}></div>
               </div>
               {/* END IMAGE */}
 
               <div className="details">
                 <h3 className="title" onClick={toggleModalThree}>
-                Client Detail Form
+                  Client Detail Form
                 </h3>
               </div>
               {/* End details */}
@@ -336,8 +254,7 @@ const ConsentForm = () => {
                 contentLabel="My dialog"
                 className="custom-modal"
                 overlayClassName="custom-overlay"
-                closeTimeoutMS={500}
-              >
+                closeTimeoutMS={500}>
                 <div className="beny_tm_modalbox_news">
                   <button className="close-modal" onClick={toggleModalThree}>
                     <img src="/img/svg/cancel.svg" alt="close icon" />
@@ -353,76 +270,18 @@ const ConsentForm = () => {
                             backgroundImage: `url(${
                               process.env.PUBLIC_URL + "img/news/3.jpg"
                             })`,
-                          }}
-                        ></div>
+                          }}></div>
                       </div>
                       {/* END IMAGE */}
                       <div className="details">
-                        <span>
-                          April 07,2021 <a href="#">Inspiration</a>
-                        </span>
-                        <h3 className="title">Chul Urina</h3>
+                        <span>Client Detail Form</span>
                       </div>
                       {/* End details */}
                       <div className="main_content">
                         <div className="descriptions">
-                          <p className="bigger">
-                            Just because we can't get out and about like we
-                            normally would, doesn’t mean we have to stop taking
-                            pictures. There’s still plenty you can do, provided
-                            you're prepared to use some imagination. Here are a
-                            few ideas to keep you shooting until normal life
-                            resumes.
-                          </p>
-                          <p>
-                            Most photographers love to shoot the unusual, and
-                            you don’t get much more unusual than These
-                            Unprecedented Times. Right now everything counts as
-                            out of the ordinary. There are a number of
-                            remarkable things about these lockdown days that are
-                            worth photographing now so we can remember them when
-                            it is all over.
-                          </p>
-                          <p>
-                            Streets empty that are usually busy are remarkable
-                            and can evoke the sense of historical pictures from
-                            before the invention of the motorcar. Other things
-                            that are different at the moment will be queues to
-                            get into stores and the lines marked out on the
-                            floor to show how far apart we should be.
-                          </p>
-                          <div className="quotebox">
-                            <p>
-                              Most photographers find it hard to see interesting
-                              pictures in places in which they are most
-                              familiar. A trip somewhere new seems always
-                              exactly what our photography needed, as shooting
-                              away from home consistently inspires us to new
-                              artistic heights.
-                            </p>
-                          </div>
-                          <p>
-                            Pretend everything is new and that you haven’t seen
-                            it before, and then you will be free to notice the
-                            leading lines, the places where one edge meets
-                            another in delightful geometric harmony, and how the
-                            ordinary things in the kitchen are transformed when
-                            the light is on or off.
-                          </p>
-                          <p>
-                            The trick here is to look slowly, and then look
-                            again. Take the time to look in detail and to look
-                            at the same thing from different angles, with
-                            different light, long lenses and wide lenses. Then
-                            move to the left a bit. You may never feel the need
-                            to leave the house again.
-                          </p>
-                        </div>
-                        {/* END DESCRIPTION */}
-                        <div className="news_share">
-                          <span>Share:</span>
-                          <Social />
-                          {/* END SOCIAL SHARE */}
+                          <iframe
+                            src="https://form.jotform.com/230465208451047"
+                            {...attributes}></iframe>
                         </div>
                       </div>
                     </div>

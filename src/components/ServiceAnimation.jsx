@@ -248,62 +248,17 @@ const ServiceAnimation = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "img/service/4.jpg"
+                            process.env.PUBLIC_URL + "https://i0.wp.com/post.psychcentral.com/wp-content/uploads/sites/4/2022/01/mother-daughter-therapy-session-male-psychologist-play-1296x728-header-1-1024x575.jpg?w=1155&h=1528"
                           })`,
                         }}
                       ></div>
                     </div>
                     <div className="description">
                       <h3>
-                        Ui/Ux Consultancy is the trending Part of Graphics
+                       Parental Guidance
                       </h3>
                       <p>
-                        Just because we can't get out and about like we normally
-                        would, doesn’t mean we have to taking pictures. There’s
-                        still plenty you can do, provided you're prepared to use
-                        some imagination. Here are a few ideas to keep you
-                        shooting until normal life resumes.
-                      </p>
-                      <p>
-                        Most photographers love to shoot the unusual, and you
-                        don’t get much more unusual than These Unprecedented
-                        Times. Right now everything counts as out of the
-                        ordinary. There are a number of remarkable things about
-                        these lockdown days that are worth photographing now we
-                        can remember them when it is all over.
-                      </p>
-                      <h3>What Is Branding?</h3>
-                      <p>
-                        Nullam blandit constituto eam ne, te nam ignota
-                        vituper.atoribus. Malis cetero quem saipe, prou
-                        thendrerit voluptaria.
-                      </p>
-                      <div className="in_list">
-                        <ul>
-                          <li>
-                            <p>Email is a crucial channel in any marketing.</p>
-                          </li>
-                          <li>
-                            <p>Curious what to say? How to say it?</p>
-                          </li>
-                          <li>
-                            <p>Whether you’re kicking off a new ca mpaign.</p>
-                          </li>
-                          <li>
-                            <p>
-                              Habitasse per feugiat aliquam luctus accumsan
-                              curae
-                            </p>
-                          </li>
-                        </ul>
-                      </div>
-                      <p>
-                        Streets empty that are usually busy are remarkable and
-                        can evoke the sense of historical pictures from before
-                        the invention of the motorcar. Other things that are
-                        different at the moment will be queues to get into
-                        stores and the lines marked out on the floor to show how
-                        far apart we should be.
+                      Parental guidance is an essential component of education therapy. Education therapy is a form of therapy that aims to help children with learning and attention difficulties. Parents play a crucial role in their child's success in education therapy by providing support and guidance both during and outside of therapy sessions. Education therapy can be a collaborative process between the therapist, child, and parents. The therapist can work with the child to develop strategies for addressing specific learning difficulties, while parents can provide support and reinforce the strategies at home. Additionally, parents can collaborate with the therapist to develop educational goals and monitor their child's progress. Parental guidance can also involve helping children to develop study habits, organization skills, and time-management skills. Parents can work with the therapist to identify the child's strengths and weaknesses and to develop strategies to capitalize on their strengths while addressing their weaknesses. By working collaboratively with the therapist and supporting their child at home, parents can help their children achieve success in education therapy and beyond.
                       </p>
                     </div>
                   </div>

@@ -76,16 +76,6 @@ const ConsentForm = () => {
 
                   <div className="box_inner">
                     <div className="description_wrap scrollable">
-                      <div className="image">
-                        <img src="/img/placeholders/4-3.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: `url(${
-                              process.env.PUBLIC_URL + "img/news/1.jpg"
-                            })`,
-                          }}></div>
-                      </div>
                       {/* End image */}
 
                       <div className="details">
@@ -234,7 +224,7 @@ const ConsentForm = () => {
                   className="main"
                   style={{
                     backgroundImage: `url(${
-                      process.env.PUBLIC_URL + "img/news/3.jpg"
+                      process.env.PUBLIC_URL + "https://static.vecteezy.com/system/resources/thumbnails/006/575/431/small/cute-nature-floral-flower-leaf-minimalist-girly-background-wallpaper-vector.jpg"
                     })`,
                   }}></div>
               </div>
@@ -262,16 +252,6 @@ const ConsentForm = () => {
                   {/* END CLOSE MODAL */}
                   <div className="box_inner">
                     <div className="description_wrap scrollable">
-                      <div className="image">
-                        <img src="/img/placeholders/4-3.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: `url(${
-                              process.env.PUBLIC_URL + "img/news/3.jpg"
-                            })`,
-                          }}></div>
-                      </div>
                       {/* END IMAGE */}
                       <div className="details">
                         <span>Client Detail Form</span>

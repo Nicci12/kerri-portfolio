@@ -785,6 +785,10 @@ body.dark .loader_line:after {
   margin-bottom: 15px;
   line-height: 1.2;
   color: #0f172a;
+  @media screen and (max-width: 767px) {
+    padding-right: 0;
+    font-size: 40px;
+  }
 }
 .beny_tm_hero .content .text {
   margin-bottom: 30px;

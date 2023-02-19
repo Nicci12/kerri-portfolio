@@ -734,6 +734,17 @@ body.dark .loader_line:after {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 75% 0%;
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 35% 0%;
+   
+  }
 }
 .beny_tm_hero .background .overlay {
   position: absolute;

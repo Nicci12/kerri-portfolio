@@ -5,7 +5,7 @@ const Address = () => {
     <ul>
       <li>
         <img className="svg" src="img/svg/phone.svg" alt="" />
-        <a href="Tel: 7614123224">+27829277216</a>
+        <a href="Tel: 7614123224">0829277216</a>
       </li>
       {/* End li */}
 
@@ -26,8 +26,8 @@ const Address = () => {
       <li>
         <img className="svg" src="img/svg/map.svg" alt="" />
         <span>
-        Psych Central- 40 High Street, Founders Hill,
-          <br /> Johannesburg, South Africa
+        1 Robant Lane, Sandton 2128, Edenburg,
+          <br /> Johannesburg, 2191, South Africa
         </span>
       </li>
     </ul>

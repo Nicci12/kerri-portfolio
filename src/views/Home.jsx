@@ -92,7 +92,7 @@ const Home = () => {
             >
               <div className="title">
                 <p>
-                  I'm always open to new clients
+                 Google Maps
                   <br />
                   <span></span>
                 </p>

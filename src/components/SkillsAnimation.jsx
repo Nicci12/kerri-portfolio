@@ -49,20 +49,10 @@ const skillsContent = [
 
 const awardContent = [
   {
-    awardYear: "2020",
-    degree: "Best Developer",
-    instituteName: "University Of Melbourne, NA",
-  },
-  {
-    awardYear: "2019",
-    degree: "Lorum Ipsum",
-    instituteName: "Lorum Ipsum",
-  },
-  {
-    awardYear: "2007",
-    degree: "Lorum Ipsum ",
-    instituteName: "Lorum Ipsum",
-  },
+    awardYear: "2022-Present",
+    degree: "I talk about a wide range of topics regarding childrens mental health and devlopment on the platform panda",
+    instituteName: "PANDA",
+  }
 ];
 const experienceContent = [
   {
@@ -184,7 +174,7 @@ const SkillsAnimation = () => {
                   <div className="education ">
                     <div className="edu_list">
                       <h4>
-                        <label>Awards</label>
+                        <label>Additonal Work</label>
                       </h4>
                       <ul>
                         {awardContent.map((val, i) => (

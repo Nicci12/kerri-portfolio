@@ -7,7 +7,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Address from "../components/Address";
 import ConsentForm from "../components/ConsentForm";
-import HeaderCreative from "../components/HeaderCreative";
+import Map from "../components/Map";
 
 const Home = () => {
   document.body.classList.add("light");
@@ -98,7 +98,7 @@ const Home = () => {
                 </p>
               </div>
               <div className="fields">
-                <Contact />
+                <Map/>
               </div>
             </div>
           </div>

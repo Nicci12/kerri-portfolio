@@ -87,7 +87,7 @@ const ServiceAnimation = () => {
         </li>
         <li>
           <div
-            className="list_inner"
+            className="list_inner_1 list_inner"
             onClick={toggleModalTwo}
             data-aos="fade-right"
             data-aos-duration="1200"
@@ -149,7 +149,7 @@ const ServiceAnimation = () => {
 
         <li>
           <div
-            className="list_inner"
+            className="list_inner_2 list_inner"
             onClick={toggleModalThree}
             data-aos="fade-right"
             data-aos-duration="1200"
@@ -209,7 +209,7 @@ const ServiceAnimation = () => {
 
         <li>
           <div
-            className="list_inner"
+            className="list_inner_3 list_inner"
             onClick={toggleModalFour}
             data-aos="fade-right"
             data-aos-duration="1200"

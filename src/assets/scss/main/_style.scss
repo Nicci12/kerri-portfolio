@@ -2,23 +2,23 @@
 
 /*	This file is made for CURRENT TEMPLATE
 
-01)	BENY BENY BASE
-02) BENY TOPBAR
-03) BENY MOBILE MENU
-04) BENY HERO
-05) BENY ABOUT
-06) BENY RESUME
-07) BENY SERVICES
-08) BENY PORTFOLIO
-09) BENY TESTIMONIALS
-10) BENY NEWS
-11) BENY CONTACT
-12) BENY COPYRIGHT
-13) BENY CURSOR
+01)	BASE
+02) TOPBAR
+03)  MOBILE MENU
+04)  HERO
+05) ABOUT
+06) RESUME
+07) SERVICES
+08) PORTFOLIO
+09) TESTIMONIALS
+10) NEWS
+11) CONTACT
+12) COPYRIGHT
+13) CURSOR
 
 
 /*--------------------------------f-------------------*/
-/*	01) BENY BASE
+/*	01) BASE
 /*---------------------------------------------------*/
 
 html {
@@ -59,7 +59,7 @@ svg {
 img.svg {
   width: 15px;
   height: 15px;
-  color: #DA5B6E;
+  color: #8EA7E9;
 }
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
@@ -447,7 +447,7 @@ body.dark .loader_line:after {
     ul li:last-child a {
       border-color: #555;
       &:hover {
-        border-color: #DA5B6E;
+        border-color: #8EA7E9;
         color: white;
       }
     }
@@ -478,10 +478,10 @@ body.dark .loader_line:after {
   }
 }
 .beny_tm_topbar ul li:last-child:hover a {
-  border-color: #DA5B6E;
+  border-color: #8EA7E9;
 }
 .beny_tm_topbar ul li:last-child.current a {
-  border-color: #DA5B6E;
+  border-color: #8EA7E9;
 }
 .beny_tm_topbar ul li .first,
 .social ul li .first {
@@ -510,7 +510,7 @@ body.dark .loader_line:after {
   display: block;
 }
 .beny_tm_topbar ul li.current a {
-  color: #DA5B6E;
+  color: #8EA7E9;
 }
 .beny_tm_topbar ul li.current a .first {
   transform: translateY(-150%);
@@ -520,7 +520,7 @@ body.dark .loader_line:after {
   transform: translateY(-50%);
 }
 .beny_tm_topbar ul li a:hover {
-  color: #DA5B6E;
+  color: #8EA7E9;
 }
 
 /*---------------------------------------------------*/
@@ -788,7 +788,7 @@ body.dark .loader_line:after {
 }
 
 .beny_tm_hero .content .job span {
-  color: #DA5B6E;
+  color: #8EA7E9;
 }
 .educational {
   font-weight: 700;
@@ -843,7 +843,7 @@ body.dark .loader_line:after {
       color: #555;
       transition: 0.3s;
       &:hover {
-        color: #DA5B6E;
+        color: #8EA7E9;
       }
     }
   }
@@ -881,8 +881,8 @@ body.dark .loader_line:after {
 }
 .beny_tm_button button {
   &.color {
-    border-color: #DA5B6E;
-    background: #DA5B6E;
+    border-color: #8EA7E9;
+    background: #8EA7E9;
     color: #fff;
     span {
       color: #fff;
@@ -913,16 +913,16 @@ body.dark .loader_line:after {
 }
 .beny_tm_button.color a {
   color: #fff;
-  background-color: #da735b;
-  border-color: #da735b;
+  background-color: #8EA7E9;
+  border-color: #8EA7E9;
 }
 .beny_tm_button.color a:hover {
   color: #fff;
 }
 .beny_tm_button a:hover,
 .beny_tm_button button:hover {
-  color: #DA5B6E;
-  border-color: #DA5B6E;
+  color: #8EA7E9;
+  border-color: #8EA7E9;
 }
 .beny_tm_contact .beny_tm_button a {
   padding: 10px 40px;
@@ -952,7 +952,7 @@ body.dark .loader_line:after {
   transition: all 0.3s ease;
 }
 .beny_tm_hero .social ul li a:hover {
-  color: #DA5B6E;
+  color: #8EA7E9;
 }
 
 /*---------------------------------------------------*/
@@ -977,7 +977,7 @@ body.dark .loader_line:after {
 .beny_tm_title_holder span {
   display: inline-block;
   position: relative;
-  color: #DA5B6E;
+  color: #8EA7E9;
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 12px;
@@ -987,7 +987,7 @@ body.dark .loader_line:after {
   content: "";
   width: 40px;
   height: 1px;
-  background-color: #DA5B6E;
+  background-color: #8EA7E9;
   top: 50%;
   transform: translateY(-50%);
   left: 100%;
@@ -1048,7 +1048,7 @@ body.dark .loader_line:after {
   font-size: 18px;
   margin-bottom: 22px;
   .theme-color {
-    color: #DA5B6E;
+    color: #8EA7E9;
   }
 }
 .beny_tm_about .short p {
@@ -1112,7 +1112,7 @@ body.dark .loader_line:after {
       transition: 0.3s;
       &:hover {
         transform: translateY(-5px);
-        color: #DA5B6E;
+        color: #8EA7E9;
       }
     }
   }
@@ -1227,7 +1227,7 @@ body.dark .loader_line:after {
 }
 .progress_inner .background .bar_in {
   height: 100%;
-  background: #da735b;
+  background: #8EA7E9;
   overflow: hidden;
   border-radius: 18px;
 }
@@ -1247,7 +1247,7 @@ body.dark .loader_line:after {
     text-decoration: none;
     &:hover {
       text-decoration: underline;
-      color: #DA5B6E;
+      color: #8EA7E9;
     }
   }
 }
@@ -1347,7 +1347,7 @@ body.dark .loader_line:after {
   clear: both;
   float: left;
   position: relative;
-  background-color: lightseagreen;
+  background-color: #B6E2A1;
   padding: 50px;
   border-radius: 6px;
   transition: all 0.3s ease;
@@ -1359,7 +1359,7 @@ body.dark .loader_line:after {
   clear: both;
   float: left;
   position: relative;
-  background-color: red;
+  background-color: #ffb347;
   padding: 50px;
   border-radius: 6px;
   transition: all 0.4s ease;
@@ -1372,7 +1372,7 @@ body.dark .loader_line:after {
   clear: both;
   float: left;
   position: relative;
-  background-color: orange;
+  background-color: #ffd1dc;
   padding: 50px;
   border-radius: 6px;
   transition: all 0.5s ease;
@@ -1385,7 +1385,7 @@ body.dark .loader_line:after {
   clear: both;
   float: left;
   position: relative;
-  background-color: greenyellow;
+  background-color: #D9ACF5;
   padding: 50px;
   border-radius: 6px;
   transition: all 0.6s ease;
@@ -1398,7 +1398,7 @@ body.dark .loader_line:after {
 .beny_tm_services ul li .svg {
   width: 50px;
   height: 50px;
-  color: #DA5B6E;
+  color: #8EA7E9;
   margin-bottom: 25px;
   fill: none;
 }
@@ -1474,14 +1474,14 @@ body.dark .loader_line:after {
 }
 .beny_tm_services ul li .list_inner:hover .learn_more span {
   width: 30px;
-  background-color: rgb(255, 42, 166);
+  background-color: #8EA7E9;
 }
 .beny_tm_services ul li .list_inner:hover .learn_more span:before,
 .beny_tm_services ul li .list_inner:hover .learn_more span:after {
-  background-color: rgb(255, 42, 166);
+  background-color: #8EA7E9;
 }
 .beny_tm_services ul li .list_inner:hover .learn_more {
-  color: rgb(226, 44, 150);
+  color:#8EA7E9;
 }
 .beny_tm_full_link {
   position: absolute;
@@ -1679,7 +1679,7 @@ body.dark .loader_line:after {
       visibility: visible;
     }
     h3 {
-      color: #DA5B6E;
+      color: #8EA7E9;
     }
   }
 }
@@ -2556,7 +2556,7 @@ body.modal {
 .beny_tm_totop {
   position: relative;
   overflow: hidden;
-  background-color: #DA5B6E;
+  background-color: #8EA7E9;
   padding: 22px;
   border-radius: 3px;
   display: inline-block;
@@ -2604,7 +2604,7 @@ body.modal {
   margin-top: -40px;
   width: 80px;
   height: 80px;
-  background-color: #DA5B6E;
+  background-color: #8EA7E9;
   opacity: 0.3;
 }
 .cursor-outer {
@@ -2612,7 +2612,7 @@ body.modal {
   margin-top: -15px;
   width: 30px;
   height: 30px;
-  border: 2px solid #DA5B6E;
+  border: 2px solid #8EA7E9;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 100;
@@ -2796,7 +2796,7 @@ body.modal {
   line-height: 45px;
   text-transform: initial;
   .theme-color {
-    color: #DA5B6E;
+    color: #8EA7E9;
   }
 }
 .beny_tm_intro_wrapper .go_purchase h6 {
@@ -2828,7 +2828,7 @@ body.modal {
   transition: all 0.3s ease;
 }
 .beny_tm_intro_wrapper .intro_copyright p a:hover {
-  color: #DA5B6E;
+  color: #8EA7E9;
 }
 body.intro #preloader:before,
 body.intro #preloader:after {
@@ -3117,7 +3117,7 @@ body.intro .loader_line:after {
   height: 35px;
   position: relative;
   display: inline-block;
-  background: #DA5B6E;
+  background: #8EA7E9;
   border-radius: 50%;
   animation: down 1s linear infinite;
   -webkit-animation: down 1s linear infinite;
@@ -3174,9 +3174,9 @@ body.intro .loader_line:after {
       font-size: 13px;
     }
     &.react-tabs__tab--selected {
-      border-color: #da735b;
+      border-color: #8EA7E9;
       color: #fff;
-      background: #DA5B6E;
+      background: #8EA7E9;
     }
   }
 }
@@ -3262,10 +3262,11 @@ body.intro .loader_line:after {
   display: inline-block;
   padding: 7px 18px;
   border-radius: 4px;
+  color: #8EA7E9;
   margin: 0;
 }
 .resume-box-01 h4 label {
-  color: #DA5B6E;
+  color: #8EA7E9;
 }
 .resume-box-01 h5 {
   color: #000;
@@ -3401,7 +3402,7 @@ body.intro .loader_line:after {
 
 .typer {
   margin-bottom: 20px;
-  color: #DA5B6E;
+  color: #8EA7E9;
   font-weight: 600;
 }
 

@@ -4027,6 +4027,12 @@ body {
   z-index: 99;
 }
 
+.open_button{
+  border: 2px solid black;
+  color: black;
+  background-color: pink;
+}
+
 .custom-modal {
   position: fixed;
   top: 50%;

@@ -26,24 +26,20 @@ const educationContent = [
 
 const skillsContent = [
   {
-    name: "Professional",
-    skillPercent: "100",
+    name: "Play Therapy",
   },
   {
     name: "Patient",
-    skillPercent: "100",
   },
   {
     name: "Empathetic",
-    skillPercent: "100",
   },
   {
     name: "Loving and Warm",
-    skillPercent: "100",
   },
   {
     name: "Passsionate",
-    skillPercent: "100",
+
   },
 ];
 
@@ -148,7 +144,7 @@ const SkillsAnimation = () => {
                         <div className="progress_inner" key={i}>
                           <span>
                             <span className="label">{val.name}</span>
-                            <span className="number">{val.skillPercent}%</span>
+                            <span className="number"></span>
                           </span>
                           <div className="background">
                             <div className="bar open">

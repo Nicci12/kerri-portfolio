@@ -61,7 +61,7 @@ const AboutAnimation = () => {
 
                 <li>
                   <p>
-                    <span>Email:</span> kerridimant@gmail.com
+                    <span>Email:</span> kerrijdimant@gmail.com
                   </p>
                 </li>
                 <li>

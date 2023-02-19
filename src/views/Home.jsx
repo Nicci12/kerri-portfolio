@@ -7,6 +7,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Address from "../components/Address";
 import ConsentForm from "../components/ConsentForm";
+import HeaderCreative from "../components/HeaderCreative";
 
 const Home = () => {
   document.body.classList.add("light");
@@ -20,7 +21,6 @@ const Home = () => {
       >
       </div>
       {/* demo show wrapper  */}
-
       <Header />
       {/* End Header */}
 
@@ -55,10 +55,9 @@ const Home = () => {
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Forms</span>
-            <h2>Please Read </h2>
+            <h2>Forms </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+              Please reade carefully and full out all three forms.
             </p>
           </div>
           {/* End beny_tm_title */}

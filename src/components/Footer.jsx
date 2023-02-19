@@ -12,7 +12,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Nicola Dimant-Freelance and Web Developer
+              Nicola Dimant-Freelancer and Web Developer
             </a>
             . All rights reserved.
           </p>

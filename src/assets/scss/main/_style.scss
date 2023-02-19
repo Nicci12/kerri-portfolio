@@ -780,6 +780,9 @@ body.dark .loader_line:after {
 .beny_tm_hero .content .job span {
   color: #DA5B6E;
 }
+#educational span {
+  color: black;
+}
 .beny_tm_hero .content .text {
   margin-bottom: 30px;
   padding-right: 50px;
@@ -1326,7 +1329,7 @@ body.dark .loader_line:after {
   clear: both;
   float: left;
   position: relative;
-  background-color: #f9f9fc;
+  background-color: #DA5B6E;
   padding: 50px;
   border-radius: 6px;
   transition: all 0.3s ease;
@@ -1350,7 +1353,7 @@ body.dark .loader_line:after {
 }
 .beny_tm_services ul li .learn_more {
   text-decoration: none;
-  color: #6e6e6e;
+  color: black;
   font-size: 18px;
   display: inline-block;
   position: relative;
@@ -1366,7 +1369,7 @@ body.dark .loader_line:after {
   display: inline-block;
   width: 10px;
   height: 2px;
-  background-color: #6e6e6e;
+  background-color: black;
   top: 50%;
   transform: translateY(-50%);
   margin-left: 14px;
@@ -1383,7 +1386,7 @@ body.dark .loader_line:after {
   content: "";
   width: 6px;
   height: 2px;
-  background-color: #6e6e6e;
+  background-color: black;
   transform: rotate(45deg);
   right: 0px;
   top: -2px;
@@ -1400,7 +1403,7 @@ body.dark .loader_line:after {
   content: "";
   width: 6px;
   height: 2px;
-  background-color: #6e6e6e;
+  background-color: black;
   transform: rotate(-45deg);
   right: 0px;
   bottom: -2px;
@@ -1414,14 +1417,14 @@ body.dark .loader_line:after {
 }
 .beny_tm_services ul li .list_inner:hover .learn_more span {
   width: 30px;
-  background-color: #da735b;
+  background-color: #1ecbe1;
 }
 .beny_tm_services ul li .list_inner:hover .learn_more span:before,
 .beny_tm_services ul li .list_inner:hover .learn_more span:after {
-  background-color: #da735b;
+  background-color: #1ecbe1;
 }
 .beny_tm_services ul li .list_inner:hover .learn_more {
-  color: #DA5B6E;
+  color: #1ecbe1;
 }
 .beny_tm_full_link {
   position: absolute;

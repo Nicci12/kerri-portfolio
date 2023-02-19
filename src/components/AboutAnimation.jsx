@@ -50,41 +50,33 @@ const AboutAnimation = () => {
                 </li>
                 <li>
                   <p>
-                    <span>Place of work</span>Family Tree and Psych Central
+                    <span>Place of work:</span> A really good therapist and Psych Central
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Phone :</span> 0829277216
+                    <span>Phone:</span> 0829277216
                   </p>
                 </li>
 
                 <li>
                   <p>
-                    <span>Email :</span> kerridimant@gmail.com
+                    <span>Email:</span> kerridimant@gmail.com
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>LinkedIn :</span> linkedin.com/in/kerri-dimant-aa35aa179
+                    <span>LinkedIn:</span> linkedin.com/in/kerri-dimant-aa35aa179
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>HPCSA Number :</span> PSIN 0157147
+                    <span>HPCSA Number:</span> PSIN 0157147
                   </p>
                 </li>
               </ul>
             </div>
             {/* End list */}
-            <div className="beny_tm_button color-outline">
-              <a href="img/about/cv.webp" download>
-                <span className="wrapper">
-                  <span className="first">Download CV</span>
-                  <span className="second">Download CV</span>
-                </span>
-              </a>
-            </div>
           </div>
         </div>
       </div>

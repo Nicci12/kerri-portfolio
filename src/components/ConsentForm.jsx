@@ -42,12 +42,12 @@ const ConsentForm = () => {
           <li data-aos="fade-right" data-aos-duration="1200">
             <div className="list_inner">
               <div className="image" onClick={toggleModalOne}>
-                <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                <img src="/img/form.png" alt="thumb" />
                 <div
                   className="main"
                   style={{
                     backgroundImage: `url(${
-                      process.env.PUBLIC_URL + "img/news/1.jpg"
+                      process.env.PUBLIC_URL + "img/form.png"
                     })`,
                   }}></div>
               </div>
@@ -162,7 +162,7 @@ const ConsentForm = () => {
                   className="main"
                   style={{
                     backgroundImage: `url(${
-                      process.env.PUBLIC_URL + "img/news/2.jpg"
+                      process.env.PUBLIC_URL + "/img/cbf.png"
                     })`,
                   }}></div>
               </div>
@@ -224,7 +224,7 @@ const ConsentForm = () => {
                   className="main"
                   style={{
                     backgroundImage: `url(${
-                      process.env.PUBLIC_URL + "https://static.vecteezy.com/system/resources/thumbnails/006/575/431/small/cute-nature-floral-flower-leaf-minimalist-girly-background-wallpaper-vector.jpg"
+                      process.env.PUBLIC_URL + "/img/cdf.png"
                     })`,
                   }}></div>
               </div>

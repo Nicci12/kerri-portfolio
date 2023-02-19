@@ -40,7 +40,7 @@ const SliderAnimation = () => {
               data-aos-delay="50"
             >
               <TypingAnimation className="loop-text lead" />
-              <br /><span>Educational Psychologist</span>
+              <br /><span id="educational">Educational Psychologist</span>
             </h1>
             <p
               className="text"
@@ -48,9 +48,6 @@ const SliderAnimation = () => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              {/* I'm developer focused on crafting user‑friendly experiences, I am
-              passionate about building excellent software that improves the
-              lives of those around me. */}
             </p>
             <div
               className="mobile_social"

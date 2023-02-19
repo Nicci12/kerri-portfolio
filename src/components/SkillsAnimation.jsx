@@ -80,7 +80,7 @@ const experienceContent = [
     year: "2021-present",
     compnayName: "Family Tree Therapy Center",
     descriptions:
-      "I work at Family Tree Therapy Center High School as an Educational Psychologist",
+      "I work at Family Tree Therapy Center as an Educational Psychologist",
     animationDealy: "200",
   },
   {
@@ -89,16 +89,16 @@ const experienceContent = [
     year: "2022-present",
     compnayName: "Psych Central",
     descriptions:
-      "I work at Psych Central Therapy Center High School as an Educational Psychologist",
+      "I work at Psych Central Therapy Center  as an Educational Psychologist",
     animationDealy: "",
   },
   {
     designation: "Educational Psychologist",
     jobType: "Part Time",
-    year: "2022-Present",
-    compnayName: "PANDA",
+    year: "2023-Present",
+    compnayName: "A really good therapist",
     descriptions:
-      "I give talks on the Panda Platfrom about Childhood Education and Development",
+      "I work at A really good therapist as an educational psychologist",
     animationDealy: "200",
   },
 ];

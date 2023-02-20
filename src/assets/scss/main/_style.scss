@@ -2283,11 +2283,23 @@ body.modal {
   float: left;
   margin-bottom: 15px;
 }
-// .beny_tm_modalbox_news .main_content .descriptions .bigger {
-//   color: #888;
-//   font-size: 20px;
-//   margin-bottom: 31px;
-// }
+
+.modal_button{
+  margin: 7% 5% 2% 5%;
+  padding: 2% 2% 2% 2%;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  background-color: #d9acf5;
+  border-radius: 25px;
+  border: none;
+}
+
+.modal_button:hover{
+  background-color: #8EA7E9;
+}
+
+
 .beny_tm_modalbox_news .main_content .descriptions p {
   margin-bottom: 22px;
 }
@@ -2358,7 +2370,7 @@ body.modal {
   }
 }
 .beny_tm_modalbox_news .news_share ul li a:hover svg {
-  color: #f52225;
+  color: #8EA7E9;
 }
 .beny_tm_modalbox_news .news_share ul li {
   width: 15px;
@@ -2527,7 +2539,7 @@ body.modal {
   font-weight: 500;
 }
 .beny_tm_contact .returnmessage {
-  color: #3a00ff;
+  color: #8EA7E9;
   margin-bottom: 7px;
   text-align: left;
   font-weight: 500;

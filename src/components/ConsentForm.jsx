@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 import Modal from "react-modal";
 
 Modal.setAppElement("#root");
@@ -7,14 +7,31 @@ const ConsentForm = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
-  const [isOpen4, setIsOpen4] = useState(false);
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [isModalOneOpen, setIsModalOneOpen] = useState(false);
+  const [isModalTwoOpen, setIsModalTwoOpen] = useState(false);
+
+  const openModalOne = () => {
+    setIsModalOneOpen(true);
+  };
+
+  const closeModalOne = () => {
+    setIsModalOneOpen(false);
+  };
+
+  const openModalTwo = () => {
+    setIsModalTwoOpen(true);
+  };
+
+  const closeModalTwo = () => {
+    setIsModalTwoOpen(false);
+  };
+
 
   const attributes = {
     id: "JotFormIFrame-230465208451047",
     title: "Form",
-    allowtransparency: true,
-    allowfullscreen: true,
+    allowtransparency: "true",
+    allowfullscreen: "true",
     allow: "geolocation; microphone; camera",
     frameBorder: 0,
     style: {
@@ -35,11 +52,15 @@ const ConsentForm = () => {
   function toggleModalThree() {
     setIsOpen3(!isOpen3);
   }
-
-  function closeModal() {
-    setModalIsOpen(false);
-  }
-
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://form.jotform.com/jsform/230492673821458';
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
   return (
     <>
       <div className="news_list">
@@ -92,23 +113,59 @@ const ConsentForm = () => {
 
                       <div className="main_content">
                         <div className="descriptions">
-                          <div>
-                            <Modal
-                              isOpen={modalIsOpen}
-                              onRequestClose={closeModal}
-                              contentLabel="Example Modal">
-                              <h2>Hello</h2>
-                              <button onClick={closeModal}>close</button>
-                              <div>I am a modal</div>
-                              <form>
-                                <input />
-                                <button>tab navigation</button>
-                                <button>stays</button>
-                                <button>inside</button>
-                                <button>the modal</button>
-                              </form>
-                            </Modal>
+                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around' }}>
+                          <button className="modal_button" onClick={openModalOne}>Face To Fact Therapy</button>
+                          <button className="modal_button" onClick={openModalTwo}>Oneline Therapy-Teletherapy</button>
                           </div>
+                          <Modal
+                            className="custom-modal"
+                            overlayClassName="custom-overlay"
+                            closeTimeoutMS={500}
+                            isOpen={isModalOneOpen}
+                            onRequestClose={closeModalOne}>
+
+                <div className="details">
+                        <h3 className="title">Face To Fact Therapy Consent Form</h3>
+                      </div>
+                  
+                            <iframe
+                           src="https://form.jotform.com/230492673821458" 
+                            {...attributes}></iframe>
+                            <div className="beny_tm_modalbox_news">
+                              <button
+                                className="close-modal"
+                                onClick={closeModalOne}>
+                                <img
+                                  src="/img/svg/cancel.svg"
+                                  alt="close icon"
+                                />
+                              </button>
+                            </div>
+                          </Modal>
+
+                          <Modal
+                            className="custom-modal"
+                            overlayClassName="custom-overlay"
+                            closeTimeoutMS={500}
+                            isOpen={isModalTwoOpen}
+                            onRequestClose={closeModalTwo}>
+                                      <div className="details">
+                        <h3 className="title">Online Therapy Consent Form</h3>
+                      </div>
+                            <iframe
+                           src="https://form.jotform.com/230492757619466" 
+                            {...attributes}></iframe>
+                            <div className="beny_tm_modalbox_news">
+                              <button
+                                className="close-modal"
+                                onClick={closeModalTwo}>
+                                <img
+                                  src="/img/svg/cancel.svg"
+                                  alt="close icon"
+                                />
+                              </button>
+                            </div>
+                          </Modal>
                         </div>
                         {/* End news share */}
                       </div>

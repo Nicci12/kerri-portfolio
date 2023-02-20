@@ -126,7 +126,7 @@ const ConsentForm = () => {
                             <button
                               className="modal_button"
                               onClick={openModalTwo}>
-                              Oneline Therapy-Teletherapy
+                              Online Therapy-Teletherapy
                             </button>
                           </div>
                           <Modal
@@ -138,9 +138,9 @@ const ConsentForm = () => {
                             <div className="box_inner">
                               <div className="description_wrap scrollable">
                                 <div className="details">
-                                  <h3 className="title">
-                                    Face To Fact Therapy Consent Form
-                                  </h3>
+                                  <h6 className="title">
+                                    Face To Face Therapy-Consent Form
+                                  </h6>
                                 </div>
 
                                 <iframe
@@ -169,9 +169,9 @@ const ConsentForm = () => {
                             <div className="box_inner">
                               <div className="description_wrap scrollable">
                                 <div className="details">
-                                  <h3 className="title">
-                                    Online Therapy Consent Form
-                                  </h3>
+                                  <h6 className="title">
+                                    Online Therapy- Telethapy- Consent Form
+                                  </h6>
                                 </div>
 
                                 <iframe

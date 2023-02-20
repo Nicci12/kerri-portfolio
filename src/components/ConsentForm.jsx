@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 
 Modal.setAppElement("#root");
@@ -26,7 +26,6 @@ const ConsentForm = () => {
     setIsModalTwoOpen(false);
   };
 
-
   const attributes = {
     id: "JotFormIFrame-230465208451047",
     title: "Form",
@@ -53,13 +52,13 @@ const ConsentForm = () => {
     setIsOpen3(!isOpen3);
   }
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://form.jotform.com/jsform/230492673821458';
+    const script = document.createElement("script");
+    script.src = "https://form.jotform.com/jsform/230492673821458";
     script.async = true;
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);
-    }
+    };
   }, []);
   return (
     <>
@@ -113,9 +112,22 @@ const ConsentForm = () => {
 
                       <div className="main_content">
                         <div className="descriptions">
-                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around' }}>
-                          <button className="modal_button" onClick={openModalOne}>Face To Fact Therapy</button>
-                          <button className="modal_button" onClick={openModalTwo}>Oneline Therapy-Teletherapy</button>
+                          <div
+                            style={{
+                              display: "flex",
+                              flexDirection: "column",
+                              justifyContent: "space-around",
+                            }}>
+                            <button
+                              className="modal_button"
+                              onClick={openModalOne}>
+                              Face To Fact Therapy
+                            </button>
+                            <button
+                              className="modal_button"
+                              onClick={openModalTwo}>
+                              Oneline Therapy-Teletherapy
+                            </button>
                           </div>
                           <Modal
                             className="custom-modal"
@@ -123,23 +135,28 @@ const ConsentForm = () => {
                             closeTimeoutMS={500}
                             isOpen={isModalOneOpen}
                             onRequestClose={closeModalOne}>
+                            <div className="box_inner">
+                              <div className="description_wrap scrollable">
+                                <div className="details">
+                                  <h3 className="title">
+                                    Face To Fact Therapy Consent Form
+                                  </h3>
+                                </div>
 
-                <div className="details">
-                        <h3 className="title">Face To Fact Therapy Consent Form</h3>
-                      </div>
-                  
-                            <iframe
-                           src="https://form.jotform.com/230492673821458" 
-                            {...attributes}></iframe>
-                            <div className="beny_tm_modalbox_news">
-                              <button
-                                className="close-modal"
-                                onClick={closeModalOne}>
-                                <img
-                                  src="/img/svg/cancel.svg"
-                                  alt="close icon"
-                                />
-                              </button>
+                                <iframe
+                                  src="https://form.jotform.com/230492673821458"
+                                  {...attributes}></iframe>
+                                <div className="beny_tm_modalbox_news">
+                                  <button
+                                    className="close-modal"
+                                    onClick={closeModalOne}>
+                                    <img
+                                      src="/img/svg/cancel.svg"
+                                      alt="close icon"
+                                    />
+                                  </button>
+                                </div>
+                              </div>
                             </div>
                           </Modal>
 
@@ -149,21 +166,28 @@ const ConsentForm = () => {
                             closeTimeoutMS={500}
                             isOpen={isModalTwoOpen}
                             onRequestClose={closeModalTwo}>
-                                      <div className="details">
-                        <h3 className="title">Online Therapy Consent Form</h3>
-                      </div>
-                            <iframe
-                           src="https://form.jotform.com/230492757619466" 
-                            {...attributes}></iframe>
-                            <div className="beny_tm_modalbox_news">
-                              <button
-                                className="close-modal"
-                                onClick={closeModalTwo}>
-                                <img
-                                  src="/img/svg/cancel.svg"
-                                  alt="close icon"
-                                />
-                              </button>
+                            <div className="box_inner">
+                              <div className="description_wrap scrollable">
+                                <div className="details">
+                                  <h3 className="title">
+                                    Online Therapy Consent Form
+                                  </h3>
+                                </div>
+
+                                <iframe
+                                  src="https://form.jotform.com/230492757619466"
+                                  {...attributes}></iframe>
+                                <div className="beny_tm_modalbox_news">
+                                  <button
+                                    className="close-modal"
+                                    onClick={closeModalTwo}>
+                                    <img
+                                      src="/img/svg/cancel.svg"
+                                      alt="close icon"
+                                    />
+                                  </button>
+                                </div>
+                              </div>
                             </div>
                           </Modal>
                         </div>

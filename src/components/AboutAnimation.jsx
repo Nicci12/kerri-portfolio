@@ -50,7 +50,7 @@ const AboutAnimation = () => {
                 </li>
                 <li>
                   <p>
-                    <span>Place of work:</span> A really good therapist and Psych Central
+                    <span>Place of work:</span> A Really Good Therapist Centre
                   </p>
                 </li>
                 <li>

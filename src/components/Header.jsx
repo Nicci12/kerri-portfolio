@@ -36,7 +36,6 @@ const Header = () => {
             <div className="menu">
               <ul
                 className="anchor_nav"
-              ClassName="current"
                 offset={-88}
               >
                 <li className="current">

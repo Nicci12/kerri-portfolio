@@ -8178,7 +8178,7 @@ body.intro .loader_line:after {
   }
   .beny_tm_topbar:not(.animate) .logo::after {
     content: "";
-    background-image: url(../../light.png);
+    background-image: url(../kerrilogo.jpg);
     width: 100px;
     height: 44px;
     position: absolute;
@@ -8197,7 +8197,7 @@ body.intro .loader_line:after {
 }
 .demo-fixed-wrapper .demo-button {
   border-radius: 6px 0 0 6px;
-  background: #222;
+  background: whitesmoke;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: var(--transition);
   position: relative;

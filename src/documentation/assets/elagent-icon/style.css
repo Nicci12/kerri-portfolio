@@ -278,6 +278,7 @@ you can use the generic selector below, but it's slower:
 .icon_info_alt:before {
 	content: "\70";
 }
+
 .icon_error-oct_alt:before {
 	content: "\71";
 }

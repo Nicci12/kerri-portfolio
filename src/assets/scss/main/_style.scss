@@ -2163,7 +2163,7 @@ body.dark .loader_line:after {
   transition: all 0.3s ease;
 }
 .beny_tm_news ul li .details .title:hover {
-  color: #f52225;
+  color: #8EA7E9;
 }
 .beny_tm_modalbox_service .description_wrap::-webkit-scrollbar,
 .beny_tm_modalbox_news .description_wrap::-webkit-scrollbar {
@@ -2293,7 +2293,13 @@ body.modal {
   background-color: #d9acf5;
   border-radius: 25px;
   border: none;
+  @media screen and (max-width:750px){
+    margin: 3rem 0 3rem 0;
+    padding: 2rem 2rem 2rem 2rem;
+  }
 }
+
+
 
 .modal_button:hover{
   background-color: #8EA7E9;

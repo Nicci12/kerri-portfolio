@@ -117,6 +117,7 @@ const ConsentForm = () => {
                               display: "flex",
                               flexDirection: "column",
                               justifyContent: "space-around",
+                              margin: "0px 10px 10px 10px"
                             }}>
                             <button
                               className="modal_button"

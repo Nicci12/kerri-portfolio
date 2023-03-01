@@ -40,7 +40,6 @@ const HeaderCreative = () => {
                   src="img/logo/light.png"
                   alt="brand"
                 />
-                <img className="dark-img" src="img/logo/dark.png" alt="brand" />
               </Link>
             </div>
             <div className="menu">

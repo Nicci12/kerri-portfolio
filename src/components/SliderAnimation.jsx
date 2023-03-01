@@ -16,7 +16,6 @@ const SliderAnimation = () => {
             })`,
           }}
         ></div>
-        <div className="overlay"></div>
       </div>
       {/* End bg */}
 

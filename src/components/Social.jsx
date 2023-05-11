@@ -1,26 +1,19 @@
 import React from "react";
 import {
-  FiFacebook,
-  FiTwitter,
   FiInstagram,
-  FiDribbble,
   FiLinkedin,
 } from "react-icons/fi";
+import { SiFoodpanda } from "react-icons/si";
 
 const SocialShare = [
   {
-    iconName: <FiFacebook />,
-    link: "https://www.facebook.com/",
-  },
-  { iconName: <FiTwitter />, link: "https://twitter.com/" },
-  {
     iconName: <FiInstagram />,
-    link: "https://www.instagram.com/",
+    link: "https://instagram.com/kjd.psychology?igshid=NTc4MTIwNjQ2YQ==",
   },
-  { iconName: <FiDribbble />, link: "https://dribbble.com/" },
+  { iconName: <SiFoodpanda />, link: "https://www.joinpanda.com/" },
   {
     iconName: <FiLinkedin />,
-    link: "https://www.linkedin.com/feed/",
+    link: "linkedin.com/in/kerri-dimant-aa35aa179",
   },
 ];
 const Social = () => {

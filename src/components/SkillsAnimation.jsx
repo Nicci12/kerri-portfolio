@@ -34,17 +34,28 @@ const skillsContent = [
     name: "Play Therapy",
   },
   {
-    name: "Patient",
+    name: "Trauma Work",
   },
   {
-    name: "Empathetic",
+    name: "Family Therapy",
   },
   {
-    name: "Loving and Warm",
+    name: "Couple Therapy",
   },
   {
-    name: "Passsionate",
-
+    name: "Psychodynamic Therapy",
+  },
+  {
+    name: "Anxiety and Depression",
+  },
+  {
+    name: "PsychoEducational Screenings",
+  },
+  {
+    name: "Loss and Bereavement",
+  },
+  {
+    name: "Self-Harm and Suicidality",
   },
 ];
 
@@ -68,7 +79,7 @@ const experienceContent = [
   {
     designation: "Educational Psychologist",
     jobType: "Part Time",
-    year: "2021-present",
+    year: "2020-2023",
     compnayName: "Family Tree Therapy Center",
     descriptions:
       "I work at Family Tree Therapy Center as an Educational Psychologist",
@@ -77,19 +88,19 @@ const experienceContent = [
   {
     designation: "Educational Psychologist",
     jobType: "Part Time",
-    year: "2022-present",
+    year: "2022-2023",
     compnayName: "Psych Central",
     descriptions:
       "I work at Psych Central Therapy Center  as an Educational Psychologist",
-    animationDealy: "",
+    animationDealy: "200",
   },
   {
     designation: "Educational Psychologist",
-    jobType: "Part Time",
-    year: "2023-Present",
-    compnayName: "A really good therapist",
+    jobType: "Full Time",
+    year: "Present",
+    compnayName: "Blu Bird Medical Centre",
     descriptions:
-      "I work at A really good therapist as an educational psychologist",
+      "I work at Blu Bird Medical Centre as an educational psychologist",
     animationDealy: "200",
   },
 ];

@@ -98,9 +98,9 @@ const experienceContent = [
     designation: "Educational Psychologist",
     jobType: "Full Time",
     year: "Present",
-    compnayName: "Blu Bird Medical Centre",
+    compnayName: "Blu Bird Medical Suites",
     descriptions:
-      "I worked at Blu Bird Medical Suits as an Educational Psychologist",
+      "I worked at Blu Bird Medical Suites as an Educational Psychologist",
     animationDealy: "200",
   },
 ];

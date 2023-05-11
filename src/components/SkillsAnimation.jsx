@@ -8,7 +8,7 @@ const educationContent = [
     instituteName: "Nova Pioneer",
   },
   {
-    passingYear: "2018-2029",
+    passingYear: "2018-2019",
     degree: "Masters in Educational Psychology ",
     instituteName: "University of Johannesburg",
   },

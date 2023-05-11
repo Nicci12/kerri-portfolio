@@ -1,13 +1,13 @@
 import React from "react";
 import {
-  FiInstagram,
   FiLinkedin,
 } from "react-icons/fi";
 import { SiFoodpanda } from "react-icons/si";
+import { BsInstagram } from "react-icons/bs";
 
 const socialList = [
   {
-    name: <FiInstagram />,
+    name: <BsInstagram />,
     link: "linkedin.com/in/kerri-dimant-aa35aa179",
   },
   {

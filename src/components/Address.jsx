@@ -19,8 +19,8 @@ const Address = () => {
       <li>
         <img className="svg" src="img/svg/map.svg" alt="" />
         <span>
-          A Really Good Therapist Centre-  1 Robant Lane, Sandton 2128, Edenburg,
-          <br /> Johannesburg, 2191, South Africa
+        Blubird Medical Suites-   Blubird Shopping Mall, Cnr Atholl Oaklands & Cross Street, Melrose North
+          <br /> Sandton Johannesburg, 2191, South Africa
         </span>
       </li>
     </ul>

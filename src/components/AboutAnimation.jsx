@@ -40,7 +40,7 @@ const AboutAnimation = () => {
               <ul>
                 <li>
                   <p>
-                    <span>Name :</span> Kerri Dimant
+                    <span>Name:</span> Kerri Dimant
                   </p>
                 </li>
                 <li>

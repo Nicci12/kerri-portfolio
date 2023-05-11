@@ -19,7 +19,7 @@ const Address = () => {
       <li>
         <img className="svg" src="img/svg/map.svg" alt="" />
         <span>
-        Blubird Medical Suites-   Blubird Shopping Mall, Cnr Atholl Oaklands & Cross Street, Melrose North
+        Blubird Medical Suites-Blubird Shopping Mall, Cnr Atholl Oaklands & Cross Street, Melrose North
           <br /> Sandton Johannesburg, 2191, South Africa
         </span>
       </li>

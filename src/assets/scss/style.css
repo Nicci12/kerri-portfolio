@@ -4626,7 +4626,7 @@ svg {
 img.svg {
   width: 15px;
   height: 15px;
-  color: #DA5B6E;
+  color: #8ea7e9;
 }
 
 ::-moz-placeholder {
@@ -5970,7 +5970,7 @@ body.dark .loader_line:after {
 .beny_tm_services ul li .svg {
   width: 50px;
   height: 50px;
-  color: #DA5B6E;
+  color: #8ea7e9;
   margin-bottom: 25px;
   fill: none;
 }

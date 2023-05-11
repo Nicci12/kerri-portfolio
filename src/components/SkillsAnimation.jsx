@@ -3,22 +3,27 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 const educationContent = [
   {
-    passingYear: "2019-2020",
+    passingYear: "2020",
+    degree: "Internship ",
+    instituteName: "Nova Pioneer",
+  },
+  {
+    passingYear: "2018-2029",
     degree: "Masters in Educational Psychology ",
     instituteName: "University of Johannesburg",
   },
   {
-    passingYear: "2018-2019",
-    degree: "Honors in Educational Psychology ",
+    passingYear: "2017",
+    degree: "Honours in Educational Psychology ",
     instituteName: "University of Johannesburg",
   },
   {
-    passingYear: "2017-2018",
+    passingYear: "2016",
     degree: "Post Graduate in Chilhood Education-PGCE",
     instituteName: "University of Johannesburg",
   },
   {
-    passingYear: "2013-2016",
+    passingYear: "2013-2015",
     degree: "BA Humanties",
     instituteName: "University of Johannesburg",
   },

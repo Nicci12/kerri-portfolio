@@ -91,7 +91,7 @@ const experienceContent = [
     year: "2022-2023",
     compnayName: "Psych Central",
     descriptions:
-      "I work at Psych Central Therapy Center  as an Educational Psychologist",
+      "I worked at Psych Central Therapy Center  as an Educational Psychologist",
     animationDealy: "200",
   },
   {
@@ -100,7 +100,7 @@ const experienceContent = [
     year: "Present",
     compnayName: "Blu Bird Medical Suites",
     descriptions:
-      "I worked at Blu Bird Medical Suites as an Educational Psychologist",
+      "I work at Blu Bird Medical Suites as an Educational Psychologist",
     animationDealy: "200",
   },
 ];

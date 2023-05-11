@@ -56,7 +56,7 @@ const Home = () => {
             <span>Forms</span>
             <h2>Forms </h2>
             <p>
-              Please reade carefully and full out all three forms.
+              Please read carefully and full out the following forms.
             </p>
           </div>
           {/* End beny_tm_title */}

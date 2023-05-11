@@ -204,6 +204,64 @@ const ConsentForm = () => {
             </div>
           </li>
           {/* End single blog */}
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="300">
+            <div className="list_inner">
+              <div className="image" onClick={toggleModalThree}>
+                <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                <div
+                  className="main"
+                  style={{
+                    backgroundImage: `url(${
+                      process.env.PUBLIC_URL + "/img/cdf.png"
+                    })`,
+                  }}></div>
+              </div>
+              {/* END IMAGE */}
+
+              <div className="details">
+                <h3 className="title" onClick={toggleModalThree}>
+                  Client Detail Form
+                </h3>
+              </div>
+              {/* End details */}
+
+              {/* Start Modal */}
+              <Modal
+                isOpen={isOpen3}
+                onRequestClose={toggleModalThree}
+                contentLabel="My dialog"
+                className="custom-modal"
+                overlayClassName="custom-overlay"
+                closeTimeoutMS={500}>
+                <div className="beny_tm_modalbox_news">
+                  <button className="close-modal" onClick={toggleModalThree}>
+                    <img src="/img/svg/cancel.svg" alt="close icon" />
+                  </button>
+                  {/* END CLOSE MODAL */}
+                  <div className="box_inner">
+                    <div className="description_wrap scrollable">
+                      {/* END IMAGE */}
+                      <div className="details">
+                        <span>Client Detail Form</span>
+                      </div>
+                      {/* End details */}
+                      <div className="main_content">
+                        <div className="descriptions">
+                          <iframe
+                            src="https://form.jotform.com/230465208451047"
+                            {...attributes}></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Modal>
+            </div>
+            {/* END LIST INNER */}
+          </li>
 
           <li
             data-aos="fade-right"
@@ -269,64 +327,7 @@ const ConsentForm = () => {
           </li>
           {/* End single blog */}
 
-          <li
-            data-aos="fade-right"
-            data-aos-duration="1200"
-            data-aos-delay="300">
-            <div className="list_inner">
-              <div className="image" onClick={toggleModalThree}>
-                <img src="/img/placeholders/4-3.jpg" alt="thumb" />
-                <div
-                  className="main"
-                  style={{
-                    backgroundImage: `url(${
-                      process.env.PUBLIC_URL + "/img/cdf.png"
-                    })`,
-                  }}></div>
-              </div>
-              {/* END IMAGE */}
-
-              <div className="details">
-                <h3 className="title" onClick={toggleModalThree}>
-                  Client Detail Form
-                </h3>
-              </div>
-              {/* End details */}
-
-              {/* Start Modal */}
-              <Modal
-                isOpen={isOpen3}
-                onRequestClose={toggleModalThree}
-                contentLabel="My dialog"
-                className="custom-modal"
-                overlayClassName="custom-overlay"
-                closeTimeoutMS={500}>
-                <div className="beny_tm_modalbox_news">
-                  <button className="close-modal" onClick={toggleModalThree}>
-                    <img src="/img/svg/cancel.svg" alt="close icon" />
-                  </button>
-                  {/* END CLOSE MODAL */}
-                  <div className="box_inner">
-                    <div className="description_wrap scrollable">
-                      {/* END IMAGE */}
-                      <div className="details">
-                        <span>Client Detail Form</span>
-                      </div>
-                      {/* End details */}
-                      <div className="main_content">
-                        <div className="descriptions">
-                          <iframe
-                            src="https://form.jotform.com/230465208451047"
-                            {...attributes}></iframe>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Modal>
-            </div>
-            {/* END LIST INNER */}
-          </li>
+        
           {/* End single blog */}
         </ul>
       </div>

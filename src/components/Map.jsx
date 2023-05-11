@@ -8,7 +8,7 @@ const Map = () => {
     frameBorder: 0,
     downloading: "lazy",
     style: {
-      minWidth: "600px",
+      minWidth: "200px",
       maxWidth: "200px",
       height: "450px",
       border: "none",

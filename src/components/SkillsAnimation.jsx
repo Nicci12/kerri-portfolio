@@ -108,6 +108,9 @@ const experienceContent = [
 const SkillsAnimation = () => {
   return (
     <>
+            <div className="beny_tm_title_holder">
+            <span>Education, Skills and Experience</span>
+            </div>
       <div className="beny_tm_resume">
         <div className="main_title">
           <h3>My Experience</h3>

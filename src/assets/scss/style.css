@@ -390,7 +390,7 @@ input[type=submit] {
   letter-spacing: 0.5px;
   border: none;
   cursor: pointer;
-  color: #fff;
+  color: black;
   background: #777;
   transition: all 0.3s ease;
 }
@@ -5956,7 +5956,7 @@ body.dark .loader_line:after {
   clear: both;
   float: left;
   position: relative;
-  background-color: #f9f9fc;
+  background-color: #3c3ce4;
   padding: 50px;
   border-radius: 6px;
   transition: all 0.3s ease;

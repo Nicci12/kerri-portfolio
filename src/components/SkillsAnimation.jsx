@@ -82,7 +82,7 @@ const experienceContent = [
     year: "2020-2023",
     compnayName: "Family Tree Therapy Center",
     descriptions:
-      "I work at Family Tree Therapy Center as an Educational Psychologist",
+      "I worked at Family Tree Therapy Center as an Educational Psychologist",
     animationDealy: "200",
   },
   {
@@ -100,7 +100,7 @@ const experienceContent = [
     year: "Present",
     compnayName: "Blu Bird Medical Centre",
     descriptions:
-      "I work at Blu Bird Medical Centre as an educational psychologist",
+      "I worked at Blu Bird Medical Suits as an Educational Psychologist",
     animationDealy: "200",
   },
 ];

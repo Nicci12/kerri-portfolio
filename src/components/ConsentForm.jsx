@@ -122,7 +122,7 @@ const ConsentForm = () => {
                             <button
                               className="modal_button"
                               onClick={openModalOne}>
-                              Face To Fact Therapy
+                              Face To Face Therapy
                             </button>
                             <button
                               className="modal_button"

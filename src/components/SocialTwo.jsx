@@ -2,20 +2,16 @@ import React from "react";
 
 const socialList = [
   {
-    name: "FB.",
-    link: "https://www.facebook.com/",
+    name: "LinkedIn",
+    link: "linkedin.com/in/kerri-dimant-aa35aa179",
   },
   {
-    name: "DR.",
-    link: "https://dribbble.com/",
+    name: "Instagram",
+    link: "https://instagram.com/kjd.psychology?igshid=NTc4MTIwNjQ2YQ==",
   },
   {
-    name: "BE.",
-    link: "https://www.behance.net/",
-  },
-  {
-    name: "TW.",
-    link: "https://twitter.com/",
+    name: "Panda",
+    link: "https://www.joinpanda.com/",
   },
 ];
 

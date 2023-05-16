@@ -8,12 +8,12 @@ import { SiFoodpanda } from "react-icons/si";
 const SocialShare = [
   {
     iconName: <FiInstagram />,
-    link: "https://instagram.com/kjd.psychology?igshid=NTc4MTIwNjQ2YQ==",
+    link: "www.facebook.com"
   },
   { iconName: <SiFoodpanda />, link: "https://www.joinpanda.com/" },
   {
     iconName: <FiLinkedin />,
-    link: "linkedin.com/in/kerri-dimant-aa35aa179",
+    link: "https://instagram.com/kjd.psychology?igshid=NTc4MTIwNjQ2YQ=="
   },
 ];
 const Social = () => {

@@ -9,7 +9,7 @@ const Map = () => {
     downloading: "lazy",
     style: {
       minWidth: "600px",
-      maxWidth: "200px",
+      maxWidth: "300px",
       height: "450px",
       border: "none",
     },

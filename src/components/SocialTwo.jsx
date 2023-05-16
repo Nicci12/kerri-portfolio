@@ -8,11 +8,11 @@ import { BsInstagram } from "react-icons/bs";
 const socialList = [
   {
     name: <BsInstagram />,
-    link: "linkedin.com/in/kerri-dimant-aa35aa179",
+    link: "https://instagram.com/kjd.psychology?igshid=NTc4MTIwNjQ2YQ==",
   },
   {
     name: <FiLinkedin />,
-    link: "https://instagram.com/kjd.psychology?igshid=NTc4MTIwNjQ2YQ==",
+    link: "https://www.linkedin.com/in/kerri-dimant-aa35aa179/",
   },
   {
     name: <SiFoodpanda />,

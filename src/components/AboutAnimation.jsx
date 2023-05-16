@@ -50,7 +50,7 @@ const AboutAnimation = () => {
                 </li>
                 <li>
                   <p>
-                    <span>Place of work:</span> Blu Bird Medical Suites
+                    <span>Place of work:</span> Blubird Medical Suites
                   </p>
                 </li>
                 <li>

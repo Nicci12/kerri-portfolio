@@ -4149,16 +4149,16 @@ body.dark .beny_tm_topbar ul li a {
 }
 
 body.dark .beny_tm_topbar ul li.current a {
-  color: #f52225;
+  color: #8ea7e9;
 }
 
 body.dark .beny_tm_topbar ul li a:hover {
-  color: #f52225;
+  color: #8ea7e9;
 }
 
 body.dark .beny_tm_topbar ul li:last-child.current a {
-  color: #f52225;
-  border-color: #f52225;
+  color: #8ea7e9;
+  border-color: #8ea7e9;
 }
 
 body.dark .beny_tm_topbar.animate .in {
@@ -4175,7 +4175,7 @@ body.dark .beny_tm_hero .social ul li a {
 }
 
 body.dark .beny_tm_hero .social ul li a:hover {
-  color: #f52225;
+  color: #8ea7e9;
 }
 
 body.dark .beny_tm_hero .content .name {
@@ -4239,7 +4239,7 @@ body.dark .beny_tm_about .list ul li p span {
 }
 
 body.dark .beny_tm_button.color a {
-  border-color: #f52225;
+  border-color: #8ea7e9;
 }
 
 body.dark .beny_tm_resume .main_title h3 {
@@ -6541,7 +6541,7 @@ body.dark .loader_line:after {
   content: "";
   width: 100px;
   height: 2px;
-  background-color: #f52225;
+  background-color: #8ea7e9;
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
@@ -6589,8 +6589,8 @@ body.dark .loader_line:after {
 }
 
 .beny_tm_testimonials .slick-arrow:hover {
-  border-color: #f52225;
-  background-color: #f52225;
+  border-color: #8ea7e9;
+  background-color: #8ea7e9;
 }
 
 .beny_tm_testimonials .slick-prev {
@@ -6934,7 +6934,7 @@ body.modal {
   font-size: 20px;
   font-style: italic;
   margin-bottom: 23px;
-  border-left: 2px solid #f52225;
+  border-left: 2px solid #8ea7e9;
   padding-left: 30px;
   color: #000;
 }
@@ -6993,7 +6993,7 @@ body.modal {
 }
 
 .beny_tm_modalbox_news .news_share ul li a:hover svg {
-  color: #f52225;
+  color: #8ea7e9;
 }
 
 .beny_tm_modalbox_news .news_share ul li {

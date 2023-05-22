@@ -128,7 +128,7 @@ return (
                               </h6>
                             </div>
 
-                            <iframe src="https://form.jotform.com/230492673821458" {...attributes}></iframe>
+                            <iframe src="https://form.jotform.com/231412863163451" {...attributes}></iframe>
                             <div className="beny_tm_modalbox_news">
                               <button className="close-modal" onClick={closeModalOne}>
                                 <img src="/img/svg/cancel.svg" alt="close icon" />
@@ -148,7 +148,7 @@ return (
                               </h6>
                             </div>
 
-                            <iframe src="https://form.jotform.com/230492757619466" {...attributes}></iframe>
+                            <iframe src="https://form.jotform.com/231412921281447" {...attributes}></iframe>
                             <div className="beny_tm_modalbox_news">
                               <button className="close-modal" onClick={closeModalTwo}>
                                 <img src="/img/svg/cancel.svg" alt="close icon" />
@@ -206,7 +206,7 @@ return (
                   {/* End details */}
                   <div className="main_content">
                     <div className="descriptions">
-                      <iframe src="https://form.jotform.com/230465208451047" {...attributes}></iframe>
+                      <iframe src="https://form.jotform.com/231413383039451" {...attributes}></iframe>
                     </div>
                   </div>
                 </div>
@@ -249,7 +249,7 @@ return (
                   </div>
                   <div className="main_content">
                     <div className="descriptions">
-                      <iframe src="https://form.jotform.com/230482455574460" {...attributes}></iframe>
+                      <iframe src="https://form.jotform.com/231412846112446" {...attributes}></iframe>
                     </div>
                   </div>
                 </div>
@@ -265,3 +265,4 @@ return (
 };
 
 export default ConsentForm;
+
